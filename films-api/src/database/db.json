@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "12a410bc-849f-4e7e-bfc8-4ef283ee4b19",
+      "name": "Administrador",
+      "email": "administrador@showfilms.com",
+      "password": "$2a$12$QFScgd9ILBPbO2IRGxAQTOJwfLQV05EGrrgo.ow/YtwhgsnMbb9MW",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIxMjQ3OTUsImRhdGEiOnsiaWQiOiIxMmE0MTBiYy04NDlmLTRlN2UtYmZjOC00ZWYyODNlZTRiMTkiLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsImVtYWlsIjoiYWRtaW5pc3RyYWRvckBzaG93ZmlsbXMuY29tIiwicGFzc3dvcmQiOiIkMmEkMTIkUUZTY2dkOUlMQlBiTzJJUkd4QVFUT0p3ZkxRVjA1RUdycmdvLm93L1l0d2hnc25NYmI5TVciLCJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpsZUhBaU9qRTJPVEl4TWpNMU9EVXNJbVJoZEdFaU9uc2lhV1FpT2lJeE1tRTBNVEJpWXkwNE5EbG1MVFJsTjJVdFltWmpPQzAwWldZeU9ETmxaVFJpTVRraUxDSnVZVzFsSWpvaVFXUnRhVzVwYzNSeVlXUnZjaUlzSW1WdFlXbHNJam9pWVdSdGFXNXBjM1J5WVdSdmNrQnphRzkzWm1sc2JYTXVZMjl0SWl3aWNHRnpjM2R2Y21RaU9pSWtNbUVrTVRJa1VVWlRZMmRrT1VsTVFsQmlUekpKVWtkNFFWRlVUMHAzWmt4UlZqQTFSVWR5Y21kdkxtOTNMMWwwZDJobmMyNU5ZbUk1VFZjaWZTd2lhV0YwSWpveE5qa3lNVEU1T1RnMWZRLm1yZmVQX0FCZE9zd3ZjaDVNTnFVdUw0N1V0emgxOW93YV9iTU52cDNhQU0ifSwiaWF0IjoxNjkyMTIxMTk1fQ.TFjwzeXp8iYB5TnAoc_ffS4CotH5BOlZOaxiM7RE1JU"
+    },
+    {
+      "name": "Miguel",
+      "email": "mlf.481990@gmail.com",
+      "password": "$2b$10$KaHiG5M3tcK8IYufFk7ZSuMdnyf9m2o81dhrl6PD3JtXhSak.vfpu",
+      "id": "7e77a012-8659-4920-bf05-edc7de0c97af",
+      "createdAt": "15/8/2023, 20:19:57",
+      "updatedAt": "15/8/2023, 20:19:57"
+    }
+  ]
+}
