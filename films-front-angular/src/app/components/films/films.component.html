@@ -1,0 +1,35 @@
+<p>films works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Now playing</h1>
+            <ngb-carousel>
+                <ng-template ngbSlide *ngFor="let film of filmsNowPlaying$">
+                    <div class="carousel-caption">
+                        <h3>{{ film.title }}</h3>
+                    </div>
+                    <a (routerLink)="'films/film-detail/' + film.id" rel="nofollow noopener noreferrer">
+                        <div class="picsum-img-wrapper">
+                            <img [src]="'https://image.tmdb.org/t/p/w500' + film.poster_path" alt="" />
+                        </div>
+                    </a>
+                </ng-template>
+            </ngb-carousel>
+        </div>  
+        <div class="col">
+            <h1>Popular films</h1>
+            <ngb-carousel>
+                <ng-template ngbSlide *ngFor="let film of filmsPopular$; index as i">
+                    <div class="carousel-caption">
+                        <h3>{{ film.title }}</h3>
+                    </div>
+                    <a (routerLink)="'films/film-detail/' + film.id" rel="nofollow noopener noreferrer">
+                        <div class="picsum-img-wrapper">
+                            <img [src]="'https://image.tmdb.org/t/p/w500' + film.poster_path" alt="" />
+                        </div>
+                    </a>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
+</div>

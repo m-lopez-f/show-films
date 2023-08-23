@@ -1,0 +1,25 @@
+<p>filmDetail$s-detail works!</p>
+<div class="container text-center">
+    <h1>{{filmDetail$?.title}}</h1>
+    <div class="row">
+        <div class="col">
+            <img [src]="'https://image.tmdb.org/t/p/w500' + filmDetail$?.poster_path" class="img-fluid"/>
+        </div>
+        <div class="col">
+            <h3>Actors</h3>
+            <div class="row">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <ng-template ngbSlide *ngFor="let actor of filmCast$" class="col" >
+                        <div class="card">
+                            <img [src]="'https://image.tmdb.org/t/p/w500' + actor.profile_path" class="card-img-top" :alt="actor.original_name" />
+                        <div class="card-body">
+                            <h5 class="card-title">{{actor.original_name}}</h5>
+                            <p class="card-text">Character: {{ actor.character }}</p>
+                        </div>
+                        </div>
+                    </ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
