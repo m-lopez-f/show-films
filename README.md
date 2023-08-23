@@ -1,5 +1,19 @@
 # Proyecto peliculas
 
+---
+
+# **IMPORTANTE!!**
+___
+
+**el proyecto consta de su versión programada en VUEjs y Angular 16.**
+
+**VUEjs: films-front**
+
+**Angular 16: films-front-angular**
+
+---
+___
+
 ## Nombre: Miguel López Fernández
 
 ## Preguntas
